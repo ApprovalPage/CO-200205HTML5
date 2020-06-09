@@ -724,7 +724,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	// CPCCO logo
 	this.instance = new lib.CPCCOlogo();
-	this.instance.setTransform(580.8,45,1.2679,1.2679);
+	this.instance.setTransform(578.8,43.6,1.4686,1.4686,0,0,0,0,0.2);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(159));
 
